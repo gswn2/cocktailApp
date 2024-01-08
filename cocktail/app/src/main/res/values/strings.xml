@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">cocktail</string>
+    <string name="title_Recherche">Recherche</string>
+    <string name="title_Categories">Catégories</string>
+    <string name="title_Ingredients">Ingrédients</string>
+    <string name="category_label">Category: %1$s</string>
+    <string name="Served_in_label">Served in: %1$s</string>
+
+</resources>

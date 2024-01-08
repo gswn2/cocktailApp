@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_recherche">
+
+    <fragment
+        android:id="@+id/navigation_recherche"
+        android:name="com.example.cocktail.ui.recherche.RechercheFragment"
+        android:label="@string/title_Recherche"
+        tools:layout="@layout/fragment_recherche" />
+
+    <fragment
+        android:id="@+id/navigation_categories"
+        android:name="com.example.cocktail.ui.categories.CategoriesFragment"
+        android:label="@string/title_Categories"
+        tools:layout="@layout/fragment_categories" />
+
+    <fragment
+        android:id="@+id/navigation_ingredients"
+        android:name="com.example.cocktail.ui.ingredients.IngredientsFragment"
+        android:label="@string/title_Ingredients"
+        tools:layout="@layout/fragment_ingredients" />
+</navigation>
